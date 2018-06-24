@@ -12,7 +12,7 @@
         android:layout_marginBottom="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:src="@mipmap/pro_pic" />
+        android:src="@drawable/default_avatar" />
 
     <TextView
         android:id="@+id/user_single_name"
@@ -37,12 +37,12 @@
     <ImageView
         android:id="@+id/user_single_online_icon"
         android:layout_width="8dp"
-        android:layout_height="wrap_content"
+        android:layout_height="51dp"
         android:layout_alignTop="@+id/user_single_name"
         android:layout_marginLeft="10dp"
         android:layout_toEndOf="@+id/user_single_name"
         android:visibility="invisible"
-        app:srcCompat="@mipmap/pro_pic" />
+        app:srcCompat="@drawable/default_avatar" />
 
 
 </RelativeLayout>

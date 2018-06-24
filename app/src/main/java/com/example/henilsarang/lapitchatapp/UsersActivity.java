@@ -121,7 +121,7 @@ public class UsersActivity extends AppCompatActivity {
 
             CircleImageView userImageView = (CircleImageView) mView.findViewById(R.id.user_single_image);
 
-            Picasso.with(ctx).load(thumb_image).placeholder(R.mipmap.pro_pic_round).into(userImageView);
+            Picasso.with(ctx).load(thumb_image).placeholder(R.drawable.default_avatar).into(userImageView);
 
         }
 

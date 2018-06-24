@@ -24,7 +24,7 @@
         android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        app:srcCompat="@mipmap/pro_pic" />
+        app:srcCompat="@drawable/default_avatar" />
 
     <TextView
         android:id="@+id/profile_displayName"
